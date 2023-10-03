@@ -1,0 +1,45 @@
+body{
+    background-color: lightblue;
+    font-family:'Poppins', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#app{
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 0 3px 30px rgba(0,0,0,0.25);
+    padding: 50px;
+    color: aliceblue;
+    background: radial-gradient(#353a4a,#000);
+    box-shadow: #000;
+    border-radius: 20px;
+ 
+}
+
+#ptag{
+    text-transform: uppercase;
+    margin-bottom: 4%;
+    margin-right: 4px;
+    font-size: 3vw;
+    margin-bottom: 3px;
+}
+#todoInput{
+    width: 21vw;
+    padding: 10px;
+}
+button{
+    background: lightblue;
+    border: none;
+    color: black;
+    padding: 1vw 1vw;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 0;
+}
